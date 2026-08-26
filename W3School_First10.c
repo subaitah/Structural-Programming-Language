@@ -24,7 +24,7 @@ int main(){
 
     int m;
     printf("Enter your number: \n");
-    scanf("%d", &n);
+    scanf("%d", &m);
     if(m % 2==0){
         printf("The number is even\n");
     }
