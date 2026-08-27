@@ -1,5 +1,8 @@
 #include<stdio.h>
 
+// Tried grading students by taking n number of students' results and printing them altogether.
+// Used array, loop and if else statement
+
 int main(){
     int n;
     printf("Enter the number of students in the class:\n");
