@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+// Q : Read item details from input and print a short receipt.
+
 int main(){
     float price[100];
     char item[100][100];
@@ -22,7 +24,7 @@ int main(){
     int paid;
     printf("Enter customer paid amount: \n");
     scanf("%d", &paid);
-    printf("Cash return: %f", paid - total);
+    printf("Cash return: %.2f", paid - total);
     return 0;
 
 }
